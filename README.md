@@ -67,7 +67,7 @@ The backend environment variables can be set at runtime (in docker, with `-e KEY
 For frontend, there are two env files.
 - `./frontend/.env` is global (dev and prod)
 - `./frontend/.env.local` is for development only
-Upon changing, you will need to rebuild the frontend.
+Upon changing, you will have to rebuild the frontend.
 
 | Key                 | Description                                                                  | Default (dev)         | Default (prod) |
 |---------------------|------------------------------------------------------------------------------|-----------------------|----------------|
